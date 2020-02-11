@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon titre</title>
+</head>
+<body>
+    <div id ="page" class="uno">
+        <header id="head" class="site-header" role="banner">
+            <div class="col-full">
+                <a></a>
+                <a></a>
+                <div>
+                    <div class="Titre">
+                        <a href="https://lavestelaveste.com/" rel="home">Laurie</a>
+                    </div>
+                </div>
+            </div>
+            <div class="first-banner">
+                <button class="menu-toggle">
+                    <span>Menu</span>
+                </button>
+                <div class ="dos">
+                    <ul id="on-essaie" class="prout">
+                        <li>
+                            <a>TEST</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+    </div>
+</body>
+</html>
