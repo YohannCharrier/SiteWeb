@@ -1,5 +1,14 @@
 function printMenu(){
-	event.target.style.visibility = "visible" ;
+	let liste = document.getElementById("on-essaie");
+	let menu = document.getElementById("menu");
+	if(liste.style.visibility == "visible"){
+		liste.style.visibility = "hidden";
+		menu.innerHTML = 'Menu';
+	}
+	else{
+		liste.style.visibility = "visible";
+		menu.innerHTML = 'X';
+	}
 }
 
 function main(){
