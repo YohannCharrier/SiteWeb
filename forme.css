@@ -2,8 +2,7 @@
 	display : grid;
 	grid-template-columns: 200px 200px;
 	grid-auto-rows: 50px;
-	position: -webkit-sticky;
-    position: sticky;
+    position: fixed;
     padding-top: 0;
     width: 400px;
     height: 50px;
@@ -43,12 +42,33 @@
 	text-decoration: unset;
 }
 
-#baignoire{
+.images{
 	display: inline-block;
     background-size: cover;
 	background-position: center center;
-	position: relative;
-	width: 1000px;
-	height: 1000px;
+}
 
+#baignoire{
+	width: 500px;
+	height: 500px;
+}
+
+#coupe{
+	width: 500px;
+	height: 500px;
+}
+
+#mardi3{
+	width: 500px;
+	height: 500px;
+}
+
+#mardi4{
+	width: 500px;
+	height: 500px;
+}
+
+#rat{
+	width: 500px;
+	height: 500px;
 }
