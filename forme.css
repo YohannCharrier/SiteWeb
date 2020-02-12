@@ -1,13 +1,29 @@
 .site-header{
 	display : grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 200px 200px;
     position: fixed;
     padding-top: 0;
-    width: 353px;
-    height: 90px;
+    width: 400px;
+    height: 100px;
     box-shadow: 0 0 1px black;
 }
-
+#first-banner{
+	text-align: right;
+}
+#menu-button{
+	border: none;
+	background-color : white;
+}
+#menu:hover{
+	color : red;
+}
 .prout{
 	visibility: hidden;
+}
+
+a{
+	font-size: 40px;
+	color : black;
+	font-family: arial serif;
+	text-decoration: unset;
 }
