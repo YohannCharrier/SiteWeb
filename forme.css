@@ -1,27 +1,42 @@
 .site-header{
 	display : grid;
 	grid-template-columns: 200px 200px;
-    position: fixed;
+	grid-auto-rows: 50px;
+	position: -webkit-sticky;
+    position: sticky;
     padding-top: 0;
     width: 400px;
-    height: 100px;
-    box-shadow: 0 0 1px black;
+    height: 50px;
+    box-shadow: 0 0 1px white;
+}
+.col-full{
 }
 #first-banner{
 	text-align: right;
 }
 #menu-button{
+	position: absolute;
+	top : 15px;
 	border: none;
 	background-color : white;
+	outline: none;
 }
 #menu:hover{
 	color : red;
 }
+
 .prout{
 	visibility: hidden;
+	list-style-type: none;
+}
+.prout>li>a{
+	font-size: 12px;
+	color : black;
+	font-family: arial serif;
+	text-decoration: unset;
 }
 
-a{
+.Titre>a{
 	font-size: 40px;
 	color : black;
 	font-family: arial serif;
