@@ -1,7 +1,13 @@
 .site-header{
+	display : grid;
+	grid-template-columns: 1fr 1fr;
     position: fixed;
     padding-top: 0;
     width: 353px;
     height: 90px;
     box-shadow: 0 0 1px black;
+}
+
+.prout{
+	visibility: hidden;
 }
