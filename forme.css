@@ -27,3 +27,13 @@ a{
 	font-family: arial serif;
 	text-decoration: unset;
 }
+
+#baignoire{
+	display: inline-block;
+    background-size: cover;
+	background-position: center center;
+	position: relative;
+	width: 1000px;
+	height: 1000px;
+
+}
