@@ -1,12 +1,14 @@
 #line{
 	margin-top: -8px;
 	position: fixed;
+	z-index: 1;
 }
 
 #line2{
 	position: fixed;
 	bottom: -7px;
 	background-color: white;
+	z-index: 1;
 }
 
 .site-header{
@@ -15,18 +17,28 @@
 	grid-auto-rows: 50px;
     position: fixed;
     top : 20px;
-    width: 450px;
+    width: 275px;
     height: 50px;
-    box-shadow: 0 0 1px white;
+	border-left: 0;
+	border-top: 3px solid rgba(0,0,0,0.3);
+	border-right: 3px solid rgba(0,0,0,0.3);
     background-color: white;
+    border-radius: 0 10px 10px 0;
+    z-index: 1;
 }
 
 #menu-button{
 	position: absolute;
-	top : 15px;
+	top : 10px;
 	border: none;
 	background-color : white;
 	outline: none;
+	z-index: 1;
+}
+
+#menu{
+	font-size: 25px;
+	position: absolute;
 }
 
 #menu:hover{
@@ -34,12 +46,22 @@
 }
 
 .prout{
-	visibility: hidden;
+	visibility: visible;
 	list-style-type: none;
 	background-color: white;
 	text-align: center;
-	width: 101%;
+	position: absolute;
+	top: -3px;
+	left : 250px;
+	width: 100%;
+	border-top: 3px solid rgba(0,0,0,0.3);
+	border-right: 3px solid rgba(0,0,0,0.3);
+    border-bottom: 0.5px solid rgba(0,0,0,0.3);
+	
+	border-radius: 0 10px 10px 10px;
+	z-index: 99;
 }
+
 .prout>tbody>tr>td>a{
 	font-size: 12px;
 	color : black;
