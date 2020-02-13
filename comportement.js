@@ -17,16 +17,16 @@ function button(){
 }
 
 //lecture Video
-function playVideo(){
-	document.getElementById("video").play();
+function playGif(){
+	document.getElementById("video").src = "Images/ELSA_2.gif";
 }
-function pauseVideo(){
-	document.getElementById("video").pause();
+function staticGif(){
+	document.getElementById("video").src = "Images/ELSA_2_static.gif";
 }
 function listenVideo(){
 	let video = document.getElementById("video");
-	video.addEventListener("mouseover",playVideo);
-	video.addEventListener("mouseout",pauseVideo);
+	video.addEventListener("mouseover",playGif);
+	video.addEventListener("mouseout",staticGif);
 }
 
 //image mardi
