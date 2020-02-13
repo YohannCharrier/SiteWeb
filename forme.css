@@ -3,6 +3,12 @@
 	position: fixed;
 }
 
+#line2{
+	position: fixed;
+	bottom: -7px;
+	background-color: white;
+}
+
 .site-header{
 	display : grid;
 	grid-template-columns: 225px 225px;
