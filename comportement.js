@@ -4,7 +4,7 @@ function printMenu(){
 	let menu = document.getElementById("menu");
 	if(liste.style.visibility == "visible"){
 		liste.style.visibility = "hidden";
-		menu.innerHTML = 'Menu';
+		menu.innerHTML = '=';
 	}
 	else{
 		liste.style.visibility = "visible";
