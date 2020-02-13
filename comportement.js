@@ -1,3 +1,4 @@
+//Bouton Menu
 function printMenu(){
 	let liste = document.getElementById("on-essaie");
 	let menu = document.getElementById("menu");
@@ -10,19 +11,34 @@ function printMenu(){
 		menu.innerHTML = 'X';
 	}
 }
+function button(){
+	let button = document.getElementById("menu-button");
+	button.addEventListener("click",printMenu);
+}
 
+//lecture Video
 function playVideo(){
 	document.getElementById("video").play();
 }
 function pauseVideo(){
 	document.getElementById("video").pause();
 }
-function main(){
-	let button = document.getElementById("menu-button");
-	button.addEventListener("click",printMenu);
+function listenVideo(){
 	let video = document.getElementById("video");
 	video.addEventListener("mouseenter",playVideo);
 	video.addEventListener("mouseout",pauseVideo);
+}
+
+//image mardi
+function imageMardi(){
+	let image = document.getElementById("mardi3");
+	image.addEventListener("mouseenter",)
+}
+
+
+function main(){
+	button();
+	listenVideo();
 }
 
 
