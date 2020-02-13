@@ -1,3 +1,8 @@
+#line{
+	margin-top: -8px;
+	position: fixed;
+}
+
 .site-header{
 	display : grid;
 	grid-template-columns: 200px 200px;
@@ -13,6 +18,7 @@
     box-shadow: 0 0 1px white;
     background-color: white;
 }
+
 #menu-button{
 	position: absolute;
 	top : 15px;
@@ -20,6 +26,7 @@
 	background-color : white;
 	outline: none;
 }
+
 #menu:hover{
 	color : red;
 }
@@ -49,30 +56,31 @@
 	display: inline-block;
     background-size: cover;
 	background-position: center center;
-
+	border-color: white;
+	border-width: 2px;
 }
 
 #baignoire{
-	width: 500px;
-	height: 500px;
+	width: 490px;
+	height: 490px;
 }
 
 #coupe{
-	width: 500px;
-	height: 500px;
-}
+	width: 490px;
+	height: 490px;
 
+}
 #mardi3{
-	width: 500px;
-	height: 500px;
+	width: 490px;
+	height: 490px;
 }
 
 #mardi4{
-	width: 500px;
-	height: 500px;
+	width: 490px;
+	height: 490px;
 }
 
 #rat{
-	width: 500px;
-	height: 500px;
+	width: 490px;
+	height: 490px;
 }
