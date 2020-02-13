@@ -35,3 +35,9 @@
 	width: 33%;
 	height: 33%;
 }
+#video{
+	width: 50%;
+	height: 50%;
+	position: relative;
+	left: 25%;
+}
