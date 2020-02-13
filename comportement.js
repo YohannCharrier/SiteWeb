@@ -25,20 +25,32 @@ function pauseVideo(){
 }
 function listenVideo(){
 	let video = document.getElementById("video");
-	video.addEventListener("mouseenter",playVideo);
+	video.addEventListener("mouseover",playVideo);
 	video.addEventListener("mouseout",pauseVideo);
 }
 
 //image mardi
-function imageMardi(){
+function printImage(){
 	let image = document.getElementById("mardi3");
-	image.addEventListener("mouseenter",)
+	image.style.visibility = "visible";
+}
+function hideImage(){
+	let image = document.getElementById("mardi3");
+	image.style.visibility = "hidden";
+}
+function imageMardi(){
+	let image = document.getElementById("mardi4");
+	let image2 = document.getElementById("mardi3");
+	image.addEventListener("mouseover",printImage);
+	image2.addEventListener("mouseout",hideImage);
+	
 }
 
 
 function main(){
 	button();
 	listenVideo();
+	imageMardi();
 }
 
 
