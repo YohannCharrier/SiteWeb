@@ -11,9 +11,18 @@ function printMenu(){
 	}
 }
 
+function playVideo(){
+	document.getElementById("video").play();
+}
+function pauseVideo(){
+	document.getElementById("video").pause();
+}
 function main(){
 	let button = document.getElementById("menu-button");
 	button.addEventListener("click",printMenu);
+	let video = document.getElementById("video");
+	video.addEventListener("mouseenter",playVideo);
+	video.addEventListener("mouseout",pauseVideo);
 }
 
 
