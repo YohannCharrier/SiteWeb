@@ -54,35 +54,3 @@
 	text-decoration: unset;
 }
 
-.images{
-	display: inline-block;
-    background-size: cover;
-	background-position: center center;
-	border-color: white;
-	border-width: 2px;
-}
-
-#baignoire{
-	width: 490px;
-	height: 490px;
-}
-
-#coupe{
-	width: 490px;
-	height: 490px;
-
-}
-#mardi3{
-	width: 490px;
-	height: 490px;
-}
-
-#mardi4{
-	width: 490px;
-	height: 490px;
-}
-
-#rat{
-	width: 490px;
-	height: 490px;
-}
