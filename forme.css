@@ -1,14 +1,14 @@
 #line{
 	margin-top: -8px;
 	position: fixed;
-	z-index: 1;
+	z-index: 2;
 }
 
 #line2{
 	position: fixed;
 	bottom: -7px;
 	background-color: white;
-	z-index: 1;
+	z-index: 2;
 }
 
 .site-header{
@@ -24,7 +24,7 @@
 	border-right: 3px solid rgba(0,0,0,0.3);
     background-color: white;
     border-radius: 0 10px 10px 0;
-    z-index: 1;
+    z-index: 2;
 }
 
 #menu-button{
@@ -33,7 +33,7 @@
 	border: none;
 	background-color : white;
 	outline: none;
-	z-index: 1;
+	z-index: 2;
 }
 
 #menu{
@@ -76,3 +76,18 @@
 	text-decoration: unset;
 }
 
+body{
+	background : linear-gradient(rgb(235, 174, 172), #DF8B8B)
+}
+
+#test69{
+	border: 8px solid white;
+	background: transparent;
+	position: fixed;
+	height: 97.8%;
+	width: 99%;
+	vertical-align: middle;
+	margin-left: -8px;
+	margin-top: -8px;
+	z-index: 1;
+}

@@ -8,7 +8,7 @@ function printMenu(){
 	}
 	else{
 		liste.style.visibility = "visible";
-		menu.innerHTML = 'X';
+		menu.innerHTML = 'x';
 	}
 }
 function button(){
