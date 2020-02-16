@@ -2,18 +2,18 @@
 	display: inline-block;
     background-size: cover;
 	background-position: center center;
-	border-color: white;
-	border-width: 2px;
 }
 
 #baignoire{
-	width: 33%;
-	height: 33%;
+	margin-left: 4px;
+	margin-top: 4px;
+	width: 32.9%;
+	height: 32.9%;
 }
 
 #coupe{
-	width: 33%;
-	height: 33%;
+	width: 32.9%;
+	height: 32.9%;
 
 }
 #lien-mardi3{
@@ -21,22 +21,22 @@
 	left:33.3%;
 }
 #mardi3{
-	width: 33%;
-	height: 33%;
+	width: 32.9%;
+	height: 32.9%;
 	visibility: hidden;
 	z-index: 5;
 }
 
 #mardi4{
-	width: 33%;
-	height: 33%;
-	z-index: 5;
-	
+	width: 32.9%;
+	height: 32.9%;
+	z-index: 5;	
 }
 
 #rat{
-	width: 33%;
-	height: 33%;
+	margin-right: 4px;
+	width: 32.9%;
+	height: 32.9%;
 }
 #video{
 	width: 50%;
