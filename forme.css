@@ -46,7 +46,7 @@
 }
 
 .prout{
-	visibility: visible;
+	visibility: hidden;
 	list-style-type: none;
 	background-color: white;
 	text-align: center;
