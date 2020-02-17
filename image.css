@@ -1,7 +1,6 @@
 #lien-images{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-
     background-size: cover;
 	background-position: center center;
 }
