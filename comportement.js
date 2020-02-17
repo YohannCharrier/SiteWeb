@@ -44,17 +44,55 @@ function hideImage(){
 }
 function imageMardi(){
 	let image = document.getElementById("lien-mardi4");
-	let image2 = document.getElementById("lien-mardi4");
 	image.addEventListener("mouseover",printImage);
-	image2.addEventListener("mouseout",hideImage);
+	image.addEventListener("mouseout",hideImage);
 	
 }
-
+function changeIm(){
+	let im = document.getElementById("rat");
+	let im2 = document.getElementById("coupe");
+	let im3 = document.getElementById("baignoire");
+	im.style.width = "80%";
+	im.style.height = "80%";
+	im.style.transform = "rotate(0deg)";
+	im2.style.width = "80%";
+	im2.style.height = "80%";
+	im2.style.transform = "rotate(0deg)";
+	im3.style.width = "80%";
+	im3.style.height = "80%";
+	im3.style.transform = "rotate(0deg)";
+}
+function returnIm(){
+	let im = document.getElementById("rat");
+	let im2 = document.getElementById("coupe");
+	let im3 = document.getElementById("baignoire");
+	im.style.width = "80%";
+	im.style.height = "80%";
+	im.style.transform = "rotate(-10deg)";
+	im2.style.width = "90%";
+	im2.style.height = "90%";
+	im2.style.transform = "rotate(10deg)";
+	im3.style.width = "75%";
+	im3.style.height = "75%";
+	im3.style.transform = "rotate(-10deg)";
+}
+function imageAccueil(){
+	let im = document.getElementById("rat");
+	let im2 = document.getElementById("coupe");
+	let im3 = document.getElementById("baignoire");
+	im.addEventListener("mouseover",changeIm);
+	im.addEventListener("mouseout",returnIm);
+	im2.addEventListener("mouseover",changeIm);
+	im2.addEventListener("mouseout",returnIm);
+	im3.addEventListener("mouseover",changeIm);
+	im3.addEventListener("mouseout",returnIm);
+}
 
 function main(){
 	button();
 	listenVideo();
 	imageMardi();
+	imageAccueil();
 }
 
 
