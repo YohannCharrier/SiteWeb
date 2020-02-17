@@ -85,6 +85,8 @@
 	letter-spacing: 15px;
 	font-family: Kaoly;
 	line-height: 75px;
+
+	text-decoration: unset;
 	text-decoration: none;
 	text-shadow: 1px 1px 0 white;
 }
