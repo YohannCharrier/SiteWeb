@@ -70,10 +70,22 @@
 	text-decoration: unset;
 }
 
+@font-face {
+	font-family: GiantFont;
+	src: url("GiantFont.otf") format("truetype");
+}
+@font-face {
+	font-family: Kaoly;
+	src: url("Kaoly\ Demo-Regular.ttf") format("truetype");
+}
+
 .Titre>a{
-	font-size: 40px;
-	color : black;
-	font-family: arial serif;
+	font-size: 41px;
+	color : rgb(0, 0, 0);
+	letter-spacing: 15px;
+	font-family: Kaoly;
+	line-height: 75px;
+
 	text-decoration: unset;
 }
 
