@@ -32,15 +32,19 @@ function listenVideo(){
 //image mardi
 function printImage(){
 	let image = document.getElementById("mardi3");
+	let image2 = document.getElementById("mardi4");
 	image.style.visibility = "visible";
+	image2.style.visibility = "hidden";
 }
 function hideImage(){
 	let image = document.getElementById("mardi3");
+	let image2 = document.getElementById("mardi4");
 	image.style.visibility = "hidden";
+	image2.style.visibility = "visible";
 }
 function imageMardi(){
-	let image = document.getElementById("mardi4");
-	let image2 = document.getElementById("mardi3");
+	let image = document.getElementById("lien-mardi4");
+	let image2 = document.getElementById("lien-mardi4");
 	image.addEventListener("mouseover",printImage);
 	image2.addEventListener("mouseout",hideImage);
 	

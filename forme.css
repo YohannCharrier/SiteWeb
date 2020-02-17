@@ -67,7 +67,7 @@
 	font-size: 12px;
 	color : black;
 	font-family: arial serif;
-	text-decoration: unset;
+	text-decoration: none;
 }
 
 @font-face {
@@ -80,6 +80,7 @@
 }
 
 .Titre>a{
+<<<<<<< HEAD
 	font-size: 41px;
 	color : rgb(0, 0, 0);
 	letter-spacing: 15px;
@@ -87,6 +88,12 @@
 	line-height: 75px;
 
 	text-decoration: unset;
+=======
+	font-size: 40px;
+	color : black;
+	font-family: "Segoe Script";
+	text-decoration: none;
+>>>>>>> a19b156c0786350f2885cd5386543cb7f2af1087
 }
 
 body{
