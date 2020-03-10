@@ -1,11 +1,9 @@
 body{
-    position: absolute;
-    width : 100%;
-    height: 90%;
-    background-image: url("Images/rat-04.jpg");
-    background-repeat: repeat-x;
-    background-size: 40%;
+    background-image: url("Images/bandeau.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
+
 .site-header{
 	display : grid;
 	grid-template-columns: 225px 225px;
