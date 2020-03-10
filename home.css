@@ -82,15 +82,6 @@ body{
     text-shadow: 1px 1px 0 white;
 }
 
-#bandeau-image{
-    position: absolute;
-    width : 100%;
-    height: 90%;
-    background-image: url("Images/rat-04.jpg");
-    background-repeat: repeat-x;
-    background-color: black;
-}
-
 footer{
     justify-content: center;
 }
