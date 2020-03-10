@@ -86,3 +86,7 @@ body{
     background-repeat: repeat-x;
     background-color: black;
 }
+
+footer{
+    justify-content: center;
+}
