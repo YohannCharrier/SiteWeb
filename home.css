@@ -2,6 +2,7 @@ body{
     background-image: url("Images/bandeau.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
+    margin : 0;
 }
 
 .site-header{
@@ -70,7 +71,7 @@ body{
 
 @font-face {
     font-family: Glossy;
-    src: url("Glossy.otf") format("truetype");
+    src: url("Glossy.ttf") format("truetype");
 }
 
 .Titre>a{
@@ -86,12 +87,10 @@ body{
 }
 
 footer{
-    background-color: turquoise;
     display: flex;
-    margin-top: 40%;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    border: 2px solid black;
+    margin-top: 45%;
+    padding-top: 0.75%;
+    padding-bottom: 0.75%;
     justify-content: center;
 }
 
@@ -101,6 +100,8 @@ footer{
     padding: 0 10%;
 }
 
-.footer{
+footer > div > a {
     font-family: Glossy;
+    font-size: 23px;
+    font-weight: bold;
 }
