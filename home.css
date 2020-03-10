@@ -87,6 +87,7 @@ body{
 }
 
 footer{
+    background-color: white;
     display: flex;
     margin-top: 45%;
     padding-top: 0.75%;
@@ -102,6 +103,7 @@ footer{
 
 footer > div > a {
     font-family: Glossy;
-    font-size: 23px;
-    font-weight: bold;
+    font-size: 300%;
+    font: lighter;
+    color: gray;
 }
