@@ -4,7 +4,7 @@ body{
     height: 90%;
     background-image: url("Images/rat-04.jpg");
     background-repeat: repeat-x;
-    background-size: 33%
+    background-size: 40%;
 }
 .site-header{
 	display : grid;
@@ -70,6 +70,11 @@ body{
     src: url("Kaoly\ Demo-Regular.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: Glossy;
+    src: url("Glossy.otf") format("truetype");
+}
+
 .Titre>a{
     font-size: 41px;
     color : rgb(0, 0, 0);
@@ -83,6 +88,21 @@ body{
 }
 
 footer{
+    background-color: turquoise;
+    display: flex;
+    margin-top: 40%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border: 2px solid black;
     justify-content: center;
 }
 
+
+
+#column-left, #column-right{
+    padding: 0 10%;
+}
+
+.footer{
+    font-family: Glossy;
+}
